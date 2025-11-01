@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  height: 600px;
+}
+
+div div {
+  outline: 1px black solid;
+}
+
+.container {
+  display: grid;
+  height: 600px;
+  grid-template-columns: 100px 100px;
+  gap: 10px 20px;
+}
